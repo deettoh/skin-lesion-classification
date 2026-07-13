@@ -86,13 +86,13 @@ and boundaries instead of background skin.
 
 ```
 skin_lesion/
-├── custom cnn v1/                           SkinLesionCNN, cross-entropy, 100 epochs
+├── custom_cnn_v1/                           SkinLesionCNN, cross-entropy, 100 epochs
 │   ├── custom-cnn-skin-lesion.ipynb
 │   └── cnn_v1_training_logs.csv
-├── custom cnn v2/                           SkinLesionCNN, focal loss, 100 epochs
+├── custom_cnn_v2/                           SkinLesionCNN, focal loss, 100 epochs
 ├── kanvit/                                  plain ViT (160px) with KAN MLP, 30 epochs
 ├── efficientnetb0_kanvit/                   EfficientNet-B0 frozen + KAN-ViT, 35 epochs
-├── b0_kanvit_with_mlp_unfreezed backcone/   EfficientNet-B0 fine-tuned + KAN-ViT-MLP, 25 epochs
+├── b0_kanvit_with_mlp_unfrozen_backbone/   EfficientNet-B0 fine-tuned + KAN-ViT-MLP, 25 epochs
 ├── efficientnetb3_kanvit_mlp/               EfficientNet-B3 + KAN-ViT-MLP, 50 epochs
 ├── hair_removal.ipynb                       dataset hair-removal preprocessing
 ├── model_visualization_comprehensive.ipynb  cross-model comparison figures

@@ -4,7 +4,7 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-hair removal dataset/
+hair_removal_dataset/
 
 *.pth
 *.h5
