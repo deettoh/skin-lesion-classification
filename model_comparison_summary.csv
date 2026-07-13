@@ -1,0 +1,7 @@
+Model,Total Epochs,Best Val Acc,Best Epoch,Final Train Acc,Final Val Acc,Generalization Gap
+Custom CNN V1,100,87.19%,92,91.70%,86.83%,4.87%
+Custom CNN V2,100,86.72%,81,91.55%,86.34%,5.21%
+KAN-ViT,30,80.03%,28,79.97%,80.03%,-0.06%
+EfficientNetB0-KANViT,35,81.99%,32,83.98%,81.53%,2.45%
+EfficientNetB0-KANViT-MLP,25,81.39%,19,87.40%,81.28%,6.11%
+EfficientNetB3-KANViT-MLP,50,84.40%,44,90.16%,83.47%,6.69%
