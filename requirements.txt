@@ -1,0 +1,27 @@
+# Python 3.10+. Versions are unpinned; the notebooks were run on Kaggle GPU
+# kernels, so match your CUDA/torch build to your own environment.
+# The KAN spline layers are defined inline in the notebooks, so no separate
+# KAN package is required.
+
+# Deep learning
+torch
+torchvision
+timm
+
+# Dataset download and image IO
+kagglehub
+pillow
+opencv-python
+
+# Data handling
+numpy
+pandas
+
+# Metrics and visualization
+scikit-learn
+matplotlib
+seaborn
+
+# Utilities
+tqdm
+torchinfo
