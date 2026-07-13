@@ -59,7 +59,7 @@ skin-ds-processed/
 
 ## Preprocessing
 
-`hair_removal.ipynb` produces `skin-ds-processed` from the raw Kaggle download.
+`analysis/hair_removal.ipynb` produces `skin-ds-processed` from the raw Kaggle download.
 Hair occludes lesions and adds high-frequency texture that the models can
 exploit, so each image is passed through a hair-removal step before training:
 
@@ -83,7 +83,7 @@ import kagglehub
 path = kagglehub.dataset_download("ahmedxc4/skin-ds")
 ```
 
-Point the `RAW_DATA_DIR` in `hair_removal.ipynb` at the download and run it once
+Point the `RAW_DATA_DIR` in `analysis/hair_removal.ipynb` at the download and run it once
 to generate `skin-ds-processed`. The notebook was written for Kaggle, so its
 `/kaggle/...` paths must be repointed to run elsewhere.
 
